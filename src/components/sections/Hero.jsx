@@ -86,7 +86,7 @@ export default function HeroSection() {
               <div className="absolute inset-0 bg-primary/20 blur-[100px] rounded-full" />
 
               <img
-                src="./public/main.png"
+                src="/main.png"
                 alt="VOLT Energy Drink"
                 className="relative z-10 w-full max-w-md mx-auto drop-shadow-2xl"
               />
