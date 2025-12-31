@@ -5,41 +5,38 @@ import { ShoppingCart, Star } from "lucide-react";
 export default function ProductShowcase() {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  const products = [
-    {
-      name: "VOLT Cyan",
-      flavor: "Arctic Blast",
-      description:
-        "A crisp, refreshing blend with a cool finish designed for focus and sustained energy.",
-      image:
-        "./public/volt_cyan.png",
-      gradient: "from-primary to-primary-glow",
-      rating: 4.9,
-      reviews: 1247,
-    },
-    {
-      name: "VOLT Purple",
-      flavor: "Cosmic Berry",
-      description:
-        "A bold mixed berry fusion with a subtle citrus kick for intense flavor lovers.",
-      image:
-       "./public/volt_purple.png",
-      gradient: "from-accent to-purple-500",
-      rating: 4.8,
-      reviews: 982,
-    },
-    {
-      name: "VOLT Gold",
-      flavor: "Tropical Thunder",
-      description:
-        "A smooth tropical blend delivering premium energy with a clean finish.",
-      image:
-        "./public/volt_yellow.png",
-      gradient: "from-gold to-yellow-500",
-      rating: 4.9,
-      reviews: 856,
-    },
-  ];
+ const products = [
+  {
+    name: "VOLT Cyan",
+    flavor: "Arctic Blast",
+    description:
+      "A crisp, refreshing blend with a cool finish designed for focus and sustained energy.",
+    image: "/volt_cyan.png",
+    gradient: "from-primary to-primary-glow",
+    rating: 4.9,
+    reviews: 1247,
+  },
+  {
+    name: "VOLT Purple",
+    flavor: "Cosmic Berry",
+    description:
+      "A bold mixed berry fusion with a subtle citrus kick for intense flavor lovers.",
+    image: "/volt_purple.png",
+    gradient: "from-accent to-purple-500",
+    rating: 4.8,
+    reviews: 982,
+  },
+  {
+    name: "VOLT Gold",
+    flavor: "Tropical Thunder",
+    description:
+      "A smooth tropical blend delivering premium energy with a clean finish.",
+    image: "/volt_yellow.png",
+    gradient: "from-gold to-yellow-500",
+    rating: 4.9,
+    reviews: 856,
+  },
+];
 
   const product = products[activeIndex];
 
