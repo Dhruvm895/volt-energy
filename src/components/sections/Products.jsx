@@ -12,7 +12,7 @@ export default function ProductShowcase() {
       description:
         "A crisp, refreshing blend with a cool finish designed for focus and sustained energy.",
       image:
-        "/public/volt_cyan.png",
+        "./public/volt_cyan.png",
       gradient: "from-primary to-primary-glow",
       rating: 4.9,
       reviews: 1247,
@@ -23,7 +23,7 @@ export default function ProductShowcase() {
       description:
         "A bold mixed berry fusion with a subtle citrus kick for intense flavor lovers.",
       image:
-       "/public/volt_purple.png",
+       "./public/volt_purple.png",
       gradient: "from-accent to-purple-500",
       rating: 4.8,
       reviews: 982,
@@ -34,7 +34,7 @@ export default function ProductShowcase() {
       description:
         "A smooth tropical blend delivering premium energy with a clean finish.",
       image:
-        "/public/volt_yellow.png",
+        "./public/volt_yellow.png",
       gradient: "from-gold to-yellow-500",
       rating: 4.9,
       reviews: 856,
